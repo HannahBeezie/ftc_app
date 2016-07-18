@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<Robot>
+    <MotorController name="Motor Controller 1" serialNumber="AL00XQ8O">
+        <Motor name="y1MotorDrive" port="1" />
+        <Motor name="y2MotorDrive" port="2" />
+    </MotorController>
+    <MotorController name="Motor Controller 2" serialNumber="AL00XSTZ">
+        <Motor name="x1MotorDrive" port="1" />
+        <Motor name="x2MotorDrive" port="2" />
+    </MotorController>
+    <MotorController name="Motor Controller 3" serialNumber="AL00UVE0">
+        <Motor name="winchDrive" port="1" />
+    </MotorController>
+    <DeviceInterfaceModule name="dim" serialNumber="AL00VCWV">
+        <ColorSensor name="mr" port="5" />
+        <TouchSensor name="frontTouchSensor" port="0" />
+    </DeviceInterfaceModule>
+    <ServoController name="Servo Controller 1" serialNumber="AI02QU05">
+        <Servo name="climberDumpServo" port="1" />
+        <Servo name="winchAimServo" port="2" />
+    </ServoController>
+</Robot>
