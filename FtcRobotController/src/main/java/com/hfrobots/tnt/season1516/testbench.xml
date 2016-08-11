@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<Robot>
+    <DeviceInterfaceModule name="Device Interface Module 1" serialNumber="AL00VFD8">
+        <I2cDevice name="range1" port="0"/>
+        <Gyro name="gyro1" port="1"/>
+        <I2cDevice name="compass1" port="2"/>
+        <ColorSensor name="color1" port="5"/>
+        <OpticalDistanceSensor name="optdist1" port="0"/>
+        <TouchSensor name="touch1" port="2"/>
+    </DeviceInterfaceModule>
+    <MotorController name="Motor Controller 2" serialNumber="AL00VW88">
+        <Motor name="motor1" port="1"/>
+        <Motor name="motor2" port="2"/>
+    </MotorController>
+    <ServoController name="Servo Controller 1" serialNumber="AI049LOH">
+        <Servo name="servo1" port="1"/>
+        <Servo name="servo2" port="2"/>
+        <Servo name="servo3" port="3"/>
+        <Servo name="servo4" port="4"/>
+        <Servo name="servo5" port="5"/>
+        <Servo name="servo6" port="6"/>
+    </ServoController>
+</Robot>
